@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<EditTextPreference
+        android:dialogTitle="Min Longitude"
+        android:key="MIN_LONGITUDE"
+        android:summary="Enter minimum longitude range"
+        android:title="Min Longitude" />
+
+<EditTextPreference
+        android:dialogTitle="Max Longitude"
+        android:key="MAX_LONGITUDE"
+        android:summary="Enter maximum longitude range"
+        android:title="Max Longitude" />
+
+<EditTextPreference
+        android:dialogTitle="Min Latitude"
+        android:key="MIN_LATITUDE"
+        android:summary="Enter minimum latitude range"
+        android:title="Min Latitude" />
+
+<EditTextPreference
+        android:dialogTitle="Max Latitude"
+        android:key="MAX_LATITUDE"
+        android:summary="Enter maximum latitude range"
+        android:title="Max Latitude" />
+</PreferenceScreen>
